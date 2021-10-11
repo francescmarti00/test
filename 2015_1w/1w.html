@@ -73,17 +73,18 @@
     <h1>10 exercise </h1>
       <div id="squareUno"></div>
       <div id="squareDue"></div>
-  </body>
+
 
   <script>
 
 let X = 0;
-  move = () => {
+  draw = () => {
   X = X + 50;
   document.getElementsByClassName('anotherSquare').style = X + "px";
 };
 
-  document.getElementsByClassName('anotherSquare').addEventListener("click", move);
+  document.getElementsByClassName('anotherSquare').addEventListener("click", draw);
 
   </script>
-</html>
+  </body>
+    </html>
