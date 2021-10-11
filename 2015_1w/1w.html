@@ -9,19 +9,19 @@
 
   <body>
 
-  <h1>Ninth Eexercise </h1>
+  <h1>Ninth Exercise </h1>
     <div class="anotherSquare"></div>
 
 
   <script>
 
 let X = 0;
-  draw = () => {
+  moveSquare = () => {
   X = X + 50;
   document.getElementsByClassName('anotherSquare').style.left = X + "px";
 };
 
-  document.getElementsByClassName('anotherSquare').addEventListener('click', draw);
+  document.getElementsByClassName('anotherSquare').addEventListener("click", moveSquare);
 
   </script>
   </body>
