@@ -98,12 +98,12 @@ setInterval (time,1000);
 
 
 let X = 0;
-  draw = () => {
+  move = () => {
   X = X + 50;
   document.getElementsByClassName('anotherSquare').style = X + "px";
 };
 
-  document.getElementsByClassName('anotherSquare').addEventListener('click', draw, false);
+  document.getElementsByClassName('anotherSquare').addEventListener("click", move, false);
 
 
 
