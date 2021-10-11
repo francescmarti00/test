@@ -1,0 +1,161 @@
+#firstExercise{
+  width:200px;
+  height:200px;
+  background-color: red;
+}
+
+#secondExercise{
+  width:200px;
+  height:200px;
+  margin-left: 500px;
+  border-style: dashed;
+  border-color: red;
+}
+
+#three::first-letter{
+  color: purple;
+  font-size: 5vh;
+}
+
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.firstSquare,
+.secondSquare,
+.thirdSquare{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.container1{
+  display:flex;
+  flex-direction: row;
+}
+
+#leftTop{
+  background-color: rgb(152, 13, 8);
+  flex-grow: 1;
+  height: 500px;
+  max-width:25%;
+  margin:5%;
+}
+
+#rightTop{
+  background-color: rgb(152, 13, 8);
+  flex-grow: 2;
+  height: 500px;
+  max-width:65%;
+  margin:5%;
+
+}
+
+.container2{
+  display:flex;
+  flex-direction: row;
+}
+
+#leftBottom{
+  background-color: rgb(152, 13, 8);
+  flex-grow: 1;
+  height: 500px;
+  max-width:25%;
+  margin:5%;
+}
+
+#rightBottom{
+  background-color: rgb(152, 13, 8);
+  flex-grow: 2;
+  height: 500px;
+  max-width:65%;
+  margin:5%;
+}
+.Icelandic1{
+  display:flex;
+  flex-direction: row;
+}
+
+#topLeft{
+  background-color: rgb(210,38,48);
+  flex-grow: 1;
+  height: 500px;
+  max-width:25%;
+  margin-left: 2%;
+  margin-right:2%;
+}
+#topMiddle{
+  background-color: rgb(2, 82, 156);
+  flex-grow: 1;
+  height: 529px;
+  max-width:25%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+#topRight{
+  background-color: rgb(210,38,48);
+  flex-grow: 2;
+  height: 500px;
+  max-width:65%;
+  margin-left: 2%;
+  margin-right:2%;
+  margin-bottom: 2%;
+}
+
+.middleCenter{
+  margin-right:2%;
+  margin-left: 2%;
+  margin-right:2%;
+  background-color: rgb(2, 82, 156);
+  height:230px;
+  max-width: 100%;
+}
+
+.Icelandic2{
+  display:flex;
+  flex-direction: row;
+}
+#bottLeft{
+  background-color: rgb(210,38,48);
+  flex-grow: 1;
+  height: 500px;
+  max-width:25%;
+  margin-left: 2%;
+  margin-right:2%;
+  margin-top: 2%;
+}
+#bottMiddle{
+  background-color: rgb(2, 82, 156);
+  flex-grow: 1;
+  height:525px;
+  max-width:25%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+
+}
+#bottRight{
+  background-color: rgb(210,38,48);
+  flex-grow: 2;
+  height: 500px;
+  max-width:65%;
+  margin-left: 2%;
+  margin-right:2%;
+  margin-top: 2%;
+
+}
+
+#changeColor{
+  height:200px;
+  width:200px;
+  background-color:red;
+}
+
+.anotherSquare{
+  width:150px;
+  height:150px;
+  background-color: green;
+}
