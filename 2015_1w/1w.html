@@ -16,12 +16,12 @@
   <script>
 
 let X = 0;
-  moveSquare = () => {
+  draw = () => {
   X = X + 50;
-  document.getElementsByClassName('anotherSquare').style.left = X + "px";
+  document.getElementsByClassName('anotherSquare')[0].style.left = X + "px";
 };
 
-  document.getElementsByClassName('anotherSquare').addEventListener("click", moveSquare);
+  document.getElementsByClassName('anotherSquare')[0].addEventListener("click", draw);
 
   </script>
   </body>
