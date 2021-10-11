@@ -82,20 +82,6 @@
       document.getElementById("changeColor").style.backgroundColor = "red";
   });
 
-let count = 0; /*initial variable value of the variable
-
-in this function we teel the browser to fist do like a loop and add everytime one,
-than we tell to change the text in the value of counting as count is equal to 0*/
-
-time = function(){
-  count ++;
-  document.getElementById('btn.Start').textContent = count;
-};
-
-/*here we actually call the function by tell the browserthat every 1000ms it has to run the time function*/
-setInterval (time,1000);
-
-
 
 let X = 0;
   move = () => {
@@ -104,8 +90,6 @@ let X = 0;
 };
 
   document.getElementsByClassName('anotherSquare').addEventListener("click", move);
-
-
 
   </script>
 </html>
